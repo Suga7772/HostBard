@@ -23,7 +23,7 @@ def image_description():
 
 @app.route('/', methods=['GET'])
 def home();
-        return 'hello bard':
+        return 'hello new bard':
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
