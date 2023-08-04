@@ -22,8 +22,8 @@ def image_description():
         return jsonify({'error': 'No image provided.'}), 400
 
 @app.route('/', methods=['GET'])
-def home();
-        return 'hello new bard':
+def home():
+        return 'hello new bard'
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
