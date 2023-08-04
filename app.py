@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from bardapi import Bard
 
 app = Flask(__name__)
-token = 'ZQiv8vsJu0UHGwyNxlhsixkhDPbdJ2Z68iZecD_Ljt8zFFl2xyPvqjkd3XPeLVjqv3rBEQ.'
+token = 'ZggUnJ02y9bRC8-9F7CdlXChW-kr3_PQPlN6VhtRcD3HywLkODkAbtSqyI94oMto6-cxkA.'
 bard = Bard(token=token)
 
 @app.route('/get_answer', methods=['POST'])
