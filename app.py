@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from bardapi import Bard
 
 app = Flask(__name__)
-token = 'ZQiv8vsJu0UHGwyNxlhsixkhDPbdJ2Z68iZecD_Ljt8zFFl2xyPvqjkd3XPeLVjqv3rBEQ.'
+token = 'eQghP69SLSffZ7L0MO6XoHpec4S1eyS9SJu27fPxqyRRssSWCcVjXkoBoLaGQyuhNzis5A.'
 bard = Bard(token=token)
 
 @app.route('/get_answer', methods=['POST'])
@@ -23,7 +23,7 @@ def image_description():
 
 @app.route('/', methods=['GET'])
 def home():
-        return 'hello new mr Model'
+        return 'Wound Model Chatbot'
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
